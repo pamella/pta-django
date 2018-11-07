@@ -48,6 +48,22 @@ Ainda no terminal, dentro da pasta do projeto, rodem o comando:
 
 Caso dê um erro parecido com esse:
 
-```The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command.
+```
+The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command.
    apt install python3-venv
-You may need to use sudo with that command.  After installing the python3-venv package, recreate your virtual environment.```
+You may need to use sudo with that command.  After installing the python3-venv package, recreate your virtual environment.
+```
+Basta seguir o que o erro pede, rodando na linha de comando do terminal:
+
+```apt install python3-venv```
+
+### 3. Ativando o ambiente virtual
+Precisamos agora ativar o nosso ambiente virtual, para que as dependências relacionadas a ele possam funcionar enquanto rodamos nosso projeto. Isso tem que ser feito sempre que vocês quiserem acessar o projeto!
+
+#### Windows
+
+```env\Scripts\activate```
+
+#### Linux
+
+```source env/bin/activate```
