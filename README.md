@@ -83,5 +83,5 @@ Vamos agora criar um app (vocês vão entender melhor durante o treinamento). No
 
 Viram que surgiu uma pasta core no projeto?
 
-Agora, para finalizar esse readme, e vocês verem o projeto funcionar: na pasta do projeto, abram o arquivo ```manage.py```.
-Vocês vão notar que tem um dicionário em python com o 
+Ok, estamos quase finalizando este tutorial!
+Na pasta do projeto, vocês vão notar que existe uma pasta com o mesmo nome da pasta do projeto (blog/blog). Abram o arquivo `settings.py`. Nele, tem uma lista `INSTALLED_APPS`. Basta agora você acrescentar mais um tópico à lista: `'core'` (que é o nome do seu app!).
