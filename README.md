@@ -102,4 +102,6 @@ Quando essa mensagem aparecer, vocês vão acessar no browser o link dado no ter
 
 Se deu tudo certo, vocês vão ver essa página aqui:
 
-! 1
+![Django Successfull Install](https://wsvincent.com/assets/images/django-auth-mega/welcome.png)
+
+Yayyy, you did it!!! :sparkles::dancer:
