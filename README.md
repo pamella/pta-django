@@ -35,11 +35,11 @@ Criamos um step-by-step para facilitar:
 #### 1. Criar a pasta do projeto
 Pelo terminal, vocês vão entrar na pasta onde seu projeto vai ficar (recomendamos que vocês criem uma pasta só para os projetos):
 
-```mkdir projeto```
+```mkdir django-pta```
 
 Entrem na pasta:
 
-```cd projeto```
+```cd django-pta```
 
 ### 2. Criando ambiente virtual
 Ainda no terminal, dentro da pasta do projeto, rodem o comando:
@@ -67,3 +67,21 @@ Precisamos agora ativar o nosso ambiente virtual, para que as dependências rela
 #### Linux
 
 ```source env/bin/activate```
+
+Agora vocês podem sair da pasta do ambiente virtual (\env) e vamos criar nosso projeto em Django!
+
+## Criando um projeto em Django :sparkles::sparkles:
+Na pasta do projeto (fora da pasta do ambiente virtual!!!), rode o comando:
+
+```django-admin startproject blog```
+
+Isso criará uma pasta chamada blog, e se você entrar nela, vai ver a estrutura de pastas e arquivos de Django (que facilitam nossa vida, amém).
+
+Vamos agora criar um app (vocês vão entender melhor durante o treinamento). No terminal, rodem:
+
+```python manage.py startapp core```
+
+Viram que surgiu uma pasta core no projeto?
+
+Agora, para finalizar esse readme, e vocês verem o projeto funcionar: na pasta do projeto, abram o arquivo ```manage.py```.
+Vocês vão notar que tem um dicionário em python com o 
