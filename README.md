@@ -1,4 +1,4 @@
-# :pizza: [CITi | PTA | 2018.2] Treinamento - Django
+# [CITi | PTA | 2018.2] Treinamento - Django :pizza:
 
 ## Instalação de ferramentas
 Vamos precisar de duas coisas basiquinhas (e essenciais) para este treinamento: **Python** e **Django**.
@@ -85,3 +85,21 @@ Viram que surgiu uma pasta core no projeto?
 
 Ok, estamos quase finalizando este tutorial!
 Na pasta do projeto, vocês vão notar que existe uma pasta com o mesmo nome da pasta do projeto (blog/blog). Abram o arquivo `settings.py`. Nele, tem uma lista `INSTALLED_APPS`. Basta agora você acrescentar mais um tópico à lista: `'core'` (que é o nome do seu app!).
+
+## Rodando seu projeto!:rocket:
+
+Agora, para terminar, na pasta do projeto mesmo, onde tem o arquivo `manage.py`, vocês vão rodar no terminal:
+
+```python manage.py runserver```
+
+E vão ver algo parecido com isso:
+
+![Projeto rodando](https://glaucocustodio.github.io/assets/rodando-primeiro-projeto-django.jpg)
+
+(Imagem do Google, não tem Glauco aqui).
+
+Quando essa mensagem aparecer, vocês vão acessar no browser o link dado no terminal (nesse caso, `http://127.0.0.1:8000/`).
+
+Se deu tudo certo, vocês vão ver essa página aqui:
+
+! 1
