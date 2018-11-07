@@ -23,12 +23,12 @@ Para instalar o Django, basta fazer:
 
 ```pip install django```
 
-E ele será instalado na sua última versão. Caso você queira instalar uma versão específica do Django, você pode usar:
+E ele será instalado na sua última versão. Caso vocês queiram instalar uma versão específica do Django, vocês podem usar:
 
 ```pip install django==2.1```
 
 
-### Criando um ambiente virtual
+## Criando um ambiente virtual
 
 Criamos um step-by-step para facilitar:
 
@@ -38,3 +38,16 @@ Pelo terminal, vocês vão entrar na pasta onde seu projeto vai ficar (recomenda
 ```mkdir projeto```
 
 Entrem na pasta:
+
+```cd projeto```
+
+### 2. Criando ambiente virtual
+Ainda no terminal, dentro da pasta do projeto, rodem o comando:
+
+```python3 -m venv env```
+
+Caso dê um erro parecido com esse:
+
+```The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command.
+   apt install python3-venv
+You may need to use sudo with that command.  After installing the python3-venv package, recreate your virtual environment.```
