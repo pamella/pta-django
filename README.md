@@ -77,6 +77,8 @@ Na pasta do projeto (fora da pasta do ambiente virtual!!!), rode o comando:
 
 Isso criará uma pasta chamada blog, e se você entrar nela, vai ver a estrutura de pastas e arquivos de Django (que facilitam nossa vida, amém).
 
+`cd blog`
+
 Vamos agora criar um app (vocês vão entender melhor durante o treinamento). No terminal, rodem:
 
 ```python manage.py startapp core```
