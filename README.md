@@ -17,7 +17,11 @@ Done!
 
 ### Instalando Django na sua máquina
 
-Quando Python é instalado na sua máquina, ele vem com o **pip**. Pip é um instalador (e gerenciador) de pacotes de Python. E é com ele que vamos instalar Django! (Que crossover, bicho)
+Agora que vocês têm Python na máquina, precisaremos também do Pip. Pip é um instalador (e gerenciador) de pacotes de Python. E é com ele que vamos instalar Django!
+
+Vocês podem conferir a versão do pip fazendo:
+
+```pip --version```
 
 Para instalar o Django, basta fazer:
 
