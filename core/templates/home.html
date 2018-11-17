@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="posts">
+
+    <h2 class="posts__title_all-stories">All Stories</h2>
+
+    {% for post in posts %}
+        <div class="post__card">
+            <!-- https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date -->
+            <span class="post__date">
+                CREATED ON {{post.created_date | date:'l - d.m.y' }} AT {{post.created_date | time:'H:i'}} / UPDATED ON {{post.updated_date | date:'d.m.y' }} AT {{post.updated_date | time:'H:i'}}
+            </span>
+            <h1 class="post__title">{{ post.title }}</h1>
+            <span class="post__author">
+                    WRITE BY @{{ post.author }}
+                </span>
+            <div class="post__text">{{ post.text }}</div>
+        </div>
+    {% endfor %}
+
+</section>
+{% endblock content %}

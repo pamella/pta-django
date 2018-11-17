@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog Django | CITi - PTA</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link rel="stylesheet"  href="{% static 'css/style.css' %}" >
+    {% block style %}
+    {% endblock style %}
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <section class="header">
+        <div class="header__logo">
+            <img class="header__img" src="https://cin.ufpe.br/~pet/wiki/images/thumb/8/86/Logociti.png/300px-Logociti.png" alt="logo do CITi">
+        </div>
+        <span class="header__title">Blog Django</span>
+    </section>
+
+    {% block content %}
+    {% endblock content %}
+
+    <footer class="footer">
+        <span>&copy; 2018</span>
+        <span>
+            Made with <i class="fas fa-code"></i> and <i class="far fa-heart"></i>
+        </span>
+    </footer>
+
+</body>
+</html>
