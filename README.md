@@ -83,7 +83,7 @@ Execute co comando
 
 ```set-executionpolicy unrestricted```
 
-E logo após aperte "S" e pressione o enter
+E logo após aperte ```S``` e pressione o ```Enter```
 
 Isto acontece pois o Windows por padrão vem com restrição paa execução de scripts pelo PowerShell, mas agora liberamos isso.
 
