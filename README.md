@@ -68,6 +68,25 @@ Precisamos agora ativar o nosso ambiente virtual, para que as dependências rela
 
 ```env\Scripts\activate```
 
+Caso dê um erro parecido com esse:
+
+```
+env\Scripts\activate : O arquivo E:\Desktop\git\desafios-PTA-CITi\Blog\django\env\Scripts\Activate.ps1 não pode ser carregado porque a execução de scripts foi desabilitada neste sistema. Para obter mais informações, consulte
+about_Execution_Policies em https://go.microsoft.com/fwlink/?LinkID=135170.
+No linha:1 caractere:1
++ env\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ErrodeSegurança: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+```
+Execute co comando 
+
+```set-executionpolicy unrestricted```
+
+E logo após aperte "S" e pressione o enter
+
+Isto acontece pois o Windows por padrão vem com restrição paa execução de scripts pelo PowerShell, mas agora liberamos isso.
+
 #### Linux
 
 ```source env/bin/activate```
